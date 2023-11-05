@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.contact-container {
+    display: flex;
+}
+
+.distance-h {
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    border-left: 2px solid;
+    border-color: #FF5A3C;
+    padding-left: 10px;
+}
+
+.distance-first-container {
+    margin-bottom: 20px;
+}
+
+.distance-ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F6F7;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.distance-ul-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F6F7;
+    list-style-type: none;
+    padding: 20px;
+}
+
+
+.distance-li {
+    display: flex;
+    color: gray;
+    padding: 7px;
+}
+
+.distance-span {
+    margin-left: auto;
+    color: black;
+}
+
+@media screen and (min-width:768px) {
+    .distance-ul {
+        flex-direction: row;
+    }
+
+    .distance-first-container {
+        margin-bottom: 0px;
+        padding: 20px 40px 20px 20px;
+        border-right: 1px solid black;
+    }
+
+    .distance-2-container {
+        padding: 20px 40px 20px 20px;
+    }
+}
+
+
+.img-none {
+    display: none;
+}
+
+.opa {
+    opacity: 0.5;
+}
+
+.opa:hover {
+    opacity: 1.0;
+}
+
+.line-container {
+    display: flex;
+    justify-content: center;
+}
+
+.download {
+    height: 45px;
+    width: 200px;
+    border-width: 0px;
+    background-color: #ffc925;
+    margin-bottom: 10px;
+}
+
+.bg-container {
+    background-image: url('https://res.cloudinary.com/dtqmufptd/image/upload/v1697781517/IMG-20231019-WA0004_kgdfcc.jpg');
+    background-size: cover;
+    height: 300px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+
+.line1-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.lin {
+    background-color: #830802;
+    height: 3px;
+    width: 100px;
+}
+
+.line-1 {
+    background-color: #ffc925;
+    height: 3px;
+    width: 70px;
+}
+
+.hr-line {
+    color: red;
+    background-color: red;
+}
+
+.map {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-1 {
+    background-color: #00040d;
+}
+
+.salient-para {
+    margin: 2% 10% 10% 10%;
+    color: gray;
+}
+
+.footer-para-container {
+    display: flex;
+    color: gray;
+    font-size: 12px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.footer-span {
+    color: #ffc925;
+}
+
+.footer-para {
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+
+.footer-para-1 {
+    color: gray;
+    font-size: 12px;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.footer-image {
+    height: 80px;
+    width: 90px;
+    margin: 20px;
+}
+
+.footer-icons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon-container {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.footer-icon-container:hover {
+    border: 2px solid #ffc925;
+}
+
+.footer {
+    background-color: #28292b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon {
+    color: white;
+}
+
+.contact {
+    text-align: center;
+    color: red;
+}
+
+.send-button {
+    height: 50px;
+    width: 80%;
+    margin: 10px;
+    color: white;
+    background-color: #ffc925;
+    border-width: 0px;
+}
+
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 30px 10px 10px 10px;
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact-heading {
+    color: green;
+    margin: 30px 20px 20px 45px;
+}
+
+li {
+    margin: 7px;
+    color: gray;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+.features-main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.features-sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 33%;
+}
+
+@media screen and (min-width:1200px) {
+    .features-sub-container {
+        width: 20%;
+    }
+
+    .bg-container {
+        height: 550px;
+    }
+}
+
+.feature-icon {
+    color: white;
+}
+
+.features-icon-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9a61a;
+    height: 52px;
+    width: 52px;
+    border-radius: 40px;
+    border: 1px solid #d9a61a;
+
+}
+
+.para-f {
+    font-size: 13px;
+}
+
+.features-icon {
+    border: 2px solid #d9a61a;
+    margin: 0 0 10px;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.sub-1 {
+    background-image: linear-gradient(to top left, lightgray, white);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.image-opa {
+    opacity: 1.0;
+    width: 85%;
+    height: 70%;
+}
+
+.modal-content {
+    height: 95vh;
+    width: 95%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+.span {
+    align-self: flex-end;
+    margin: 10px 30px;
+    cursor: pointer;
+}
+
+.modal {
+    margin: 10px;
+}
+
+
+.button-image-1 {
+    background-image: url('https://www.eeshanyatropique.com/assets/img/home-page-images-arch1.jpg');
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+.button-image-2 {
+    background-image: url('https://www.truoba.com/wp-content/uploads/2022/09/Truoba-320-house-plan-1200x800.jpg');
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+.button {
+    border-width: 0px;
+    font-size: 20px;
+    background-color: transparent;
+    margin: 10px 10px 20px 10px;
+}
+
+.button-yellow {
+    background-color: #ffc925;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.ul-list {
+    color: gray;
+}
+
+
+.modern-image {
+    width: 45%;
+}
+
+.img-container {
+    background-color: rgb(168, 186, 187);
+}
+
+.img-zoom-lens {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d4d4d4;
+}
+
+.button-image {
+    background-image: url('https://www.eeshanyatropique.com/assets/img/home-page-images-SV2.jpg');
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+.modal-body {
+    display: flex;
+    align-items: center;
+}
+
+.photo-image {
+    width: 100%;
+}
+
+.photo-image-1 {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.line {
+    width: 15%;
+    border: 1px solid brown;
+}
+
+.image-logo {
+    height: 100px;
+    padding: 15px;
+}
+
+.heading {
+    color: green;
+}
+
+.head {
+    border-bottom: 1px solid brown;
+    padding: 10px;
+}
+
+.paragraph {
+    color: gray;
+}
+
+@media screen and (min-width:992px) {
+    .distance-ul {
+        width: 70%;
+    }
+
+    .distance-ul-1 {
+        width: 70%;
+    }
+
+    .sub-disatnce {
+        width: 50%;
+    }
+
+    .image-logo {
+        height: 130px;
+    }
+
+    .button-image {
+        height: 80vh;
+    }
+
+    .salient-para {
+        margin: 3% 20% 5% 20%;
+    }
+
+    .modal-body {
+        height: 100vh;
+    }
+
+    .photo-image {
+        height: 80%;
+    }
+
+    .photo-image-1 {
+        width: 60%;
+        height: 85%;
+        margin-left: 20%;
+    }
+
+    .modal {
+        margin: 20px;
+    }
+
+    .button-image-1 {
+        height: 70vh;
+    }
+
+    .image-opa {
+        width: 50%;
+    }
+
+    .sub-1 {
+        height: 70vh;
+    }
+
+    .button-image-2 {
+        height: 70vh;
+    }
+}
